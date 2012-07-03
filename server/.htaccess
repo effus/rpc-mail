@@ -1,0 +1,9 @@
+Order deny,allow
+Deny from all
+Allow from 192.168
+Allow from 127
+
+AuthType Basic
+AuthUserFile /var/www/rpcmail/config/.htpasswd
+AuthName "rpcmail authorization"
+require valid-user
