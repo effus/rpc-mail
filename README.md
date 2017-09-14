@@ -14,5 +14,6 @@ Use "htpasswd" command to create some rpc-server users. Ex.: htpasswd -m ./confi
 Before including client.class.php please define authorisation data to AUTH_USER and AUTH_PASS constants, and server url to RPC_SERV constant.
 Call one of 4 methods: sendtxt, sendhtml, sendattache, sendembedimg from class RpcMail(). (see "sample.php")
 
-
+-------
 <a href="https://github.com/effus/rpc-mail/"><img src="https://img.shields.io/github/license/effus/rpc-mail.svg" alt=""></a>
+![compatible](https://img.shields.io/badge/PHP5-Compatible-brightgreen.svg)
