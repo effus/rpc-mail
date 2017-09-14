@@ -1,6 +1,4 @@
-===========================================================
-SETUP MAIL SERVER
-===========================================================
+= SETUP MAIL SERVER
 1. Place files to server root directory
 2. Edit ./config/defines.php, fix paths and urls to yours and setup DB connection (mysql).
 3. Create table "mailqueue":
@@ -22,9 +20,7 @@ SETUP MAIL SERVER
 6. Edit ./htaccess, setup path for AuthUserFile, allow your IPs.
 7. Use "htpasswd" command to create some rpc-server users. Ex.: htpasswd -m ./config/.htpasswd mailer1
 
-===========================================================
-SETUP MAIL CLIENT
-===========================================================
+= SETUP MAIL CLIENT
 1. Before including client.class.php please define authorisation data to AUTH_USER and AUTH_PASS constants, and server url to RPC_SERV constant.
 2. Call one of 4 methods: sendtxt, sendhtml, sendattache, sendembedimg from class RpcMail(). (see "sample.php")
 
